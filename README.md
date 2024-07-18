@@ -7,7 +7,7 @@ import random
 from PIL import Image
 
 class scan:
-    def __init__(self,path='D:/',filetype='.jpeg', resolution='50'):
+    def __init__(self,path='C:/Users/Public/Documents',filetype='.jpeg', resolution='50'):
         filename = str(random.randint(1000000,999999999999))+filetype
         subprocess.run([r'C:\Program Files\NAPS2\naps2.console','-o',f"{path}{filename}",'--jpegquality',f'{resolution}','--progress'])
         self.image = path+filename
