@@ -1,6 +1,6 @@
 ### Scan Documents from using CLI
 
-This python script uses NAPS2 to scan documents from the scanner and perform action over the scanned file using PIL.
+This python script uses `[NAPS2](https://www.naps2.com/)` to scan documents from the scanner and perform action over the scanned file using `PIL`.
 ```python
 import subprocess
 import random
